@@ -13,7 +13,7 @@ import (
 func main() {
 	client := gocloak.NewClient("http://127.0.0.1:9080/")
 	ctx := context.Background()
-	token, err := client.Login(ctx, "smb-client", "12217196-2356-4fef-807c-799d4a7af2e7", "smbRecruitmentBe", "dongocanh96", "ngocanh8")
+	token, err := client.Login(ctx, "smb-client", "98691423-a407-48a6-92da-a032e8c2910c", "smbRecruitmentBe", "dongocanh96", "ngocanh8")
 	if err != nil {
 		panic("Login failed:" + err.Error())
 	}
